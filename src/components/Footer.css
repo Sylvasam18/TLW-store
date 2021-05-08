@@ -1,0 +1,22 @@
+.footer {
+    background-color: #232F3E;
+    width: 100%;
+    min-height: 200px;
+    color: whitesmoke;
+}
+
+.footer_top {
+    background-color: #354558;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_links {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

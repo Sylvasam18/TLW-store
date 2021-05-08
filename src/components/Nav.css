@@ -1,0 +1,27 @@
+.nav {
+    background-color: #232f3e;
+    height: 26px;
+    color: white;
+}
+.nav_outer {
+    width: 70%;
+
+}
+
+.nav_outer a {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    padding: auto;
+    margin-top: 5px;
+}
+
+.nav_outer a:hover{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.nav_inner {
+    display: flex;
+    justify-content: space-evenly;
+
+}
