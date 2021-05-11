@@ -8,6 +8,8 @@
     margin: 10px;
     padding: 20px;
     justify-content: flex-end;
+    background-color: rgb(241, 255, 255);
+    border-radius: 25px;
     
 }
 .product__info{
@@ -27,10 +29,16 @@
     object-fit: contain;
     max-height: 200px;
     margin-bottom: 15px;
+    border-radius: 20px;
 }
 
 .product > button{
-    background-color: yellow;
+    background-color: rgb(255, 255, 133);
     border: 1px solid grey;
     cursor: pointer;
+    border-radius: 25px;
+}
+
+.product > button:hover {
+    background-color: rgb(187, 196, 170);
 }
